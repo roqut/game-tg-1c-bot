@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9306b1e-1362-461c-ae0c-03effd84606a">
+  <producedTypes>
+    <refType typeId="03c40e46-b202-4828-a7a9-49523c72cfec" valueTypeId="282eac7a-4554-496c-b357-dab654389ebd"/>
+    <listType typeId="9047ccf6-3f83-42aa-b951-9544a55c9966" valueTypeId="fea3a28f-ec20-4386-92b8-24a817bffe03"/>
+    <managerType typeId="c9913f2e-7f3d-4613-bdb3-ad8f71d673e9" valueTypeId="660fe24a-aed8-42f2-b26c-4ccaeb4b5267"/>
+  </producedTypes>
+  <name>СтатусыИгры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы игры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9ffbbc85-f5b4-4a05-af4a-4a75256ddec0">
+    <name>ОжиданиеВторогоИгрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание второго игрока</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50e1e31f-1745-43d5-9203-7eb0424c3f87">
+    <name>Игра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игра</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89efe1d5-4322-4c15-8ee3-a42d21d46db8">
+    <name>КонецИгры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец игры</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="880304b3-9b76-4be2-a9bb-0d9309b88f50">
+    <name>ОжиданиеГотовности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание готовности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a783bf7-3903-4670-8bf1-45fccb5eed2f">
+    <name>ОжиданиеГотовностиПерезапускуИгры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание готовности перезапуску игры</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

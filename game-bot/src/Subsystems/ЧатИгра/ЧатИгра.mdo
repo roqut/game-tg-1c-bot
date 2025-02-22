@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b0f6646-22d2-47fd-b3e4-92e37d0ae36a">
+  <name>ЧатИгра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат игра</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.УчетныеЗаписиТелеграм</content>
+  <content>Catalog.ЧатИграСессии</content>
+  <content>Catalog.ТелеграмЧаты</content>
+  <content>Catalog.ОчередьОбработкиСообщений</content>
+  <content>Catalog.ЧатИграПодключениеИгрока</content>
+</mdclass:Subsystem>

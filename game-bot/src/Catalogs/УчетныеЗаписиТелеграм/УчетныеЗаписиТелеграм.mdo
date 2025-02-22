@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7a30016-ca42-4985-a6b8-a2b52a5ece61">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7a30016-ca42-4985-a6b8-a2b52a5ece61">
   <producedTypes>
     <objectType typeId="f8fd7987-5bcb-484e-bea0-51d7aaa9ba8a" valueTypeId="cf63bbcc-4ed7-48b6-9657-a39836cd07d8"/>
     <refType typeId="c5ffe6e1-2729-4999-b7b6-2058e3c0b31d" valueTypeId="2bdec22c-01f1-4fe2-9850-92223f0777e1"/>
@@ -32,4 +32,40 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f4e5f939-af49-4280-93f9-77de474007c4">
+    <name>ЧислоПобед</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число побед</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ddba986d-deb8-4f0c-a54f-01cd25058bc9">
+    <name>ЧислоПоражений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Число поражений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
